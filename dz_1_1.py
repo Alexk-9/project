@@ -15,7 +15,7 @@ elif 3600 <= duration < 86400:
 # Let's take the average value of days in a month = 30 (2592000sec)
 
 elif 86400 <= duration < 2592000:
-    days = duration // 3600 // 24
+    days = duration // 86400
     hours = (duration - days * 86400) // 3600
     minutes = (duration - hours * 3600 - days * 86400) // 60
     sec = duration - minutes * 60 - hours * 3600 - days * 86400
