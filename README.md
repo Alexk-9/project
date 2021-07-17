@@ -1,2 +1,1 @@
-# project
-first project
+My DZ in lesson1
